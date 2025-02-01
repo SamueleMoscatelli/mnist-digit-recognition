@@ -1,28 +1,30 @@
-# Python-related
+# Python bytecode files
+__pycache__/
 *.pyc
 *.pyo
-*.pyd
-__pycache__/
-*.log
-*.sqlite3
 
 # Virtual environment
 venv/
-env/
-
-# TensorFlow model files (if you don't want to push your trained model to GitHub)
-model.h5
+.env/
 
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/
 
-# IDE specific files (e.g., VSCode, PyCharm)
+# TensorFlow model files (you may want to ignore specific versions)
+models/*.h5
+models/*.keras
+
+# Logs
+logs/
+*.log
+
+# Data files (Optional: If you store any dataset locally)
+datasets/
+
+# IDE-specific files (e.g., PyCharm, VSCode, etc.)
 .vscode/
 .idea/
 
-# System-specific files
-.DS_Store  # macOS
-Thumbs.db  # Windows
-
-# Output files (if you're saving any models, figures, etc.)
-output/
+# Operating System specific files
+.DS_Store
+Thumbs.db

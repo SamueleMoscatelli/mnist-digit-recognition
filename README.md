@@ -13,7 +13,7 @@ This project implements a **handwritten digit recognition** model using the **MN
 
 ## Project Description
 
-The goal of this project is to build a CNN-based classifier capable of recognizing handwritten digits from the MNIST dataset. The project will cover data preprocessing, model building, training, and evaluation. The model will be trained using **TensorFlow** and **Keras**, and the trained model will be saved in the `.h5` format for easy deployment or further fine-tuning.
+The goal of this project is to build a CNN-based classifier capable of recognizing handwritten digits from the MNIST dataset. The project will cover data preprocessing, model building, training, and evaluation. The model will be trained using **TensorFlow** and **Keras**, and the trained model will be saved in the `.keras` format for easy deployment or further fine-tuning.
 
 ## Setup Instructions
 
@@ -43,7 +43,7 @@ To train the model, simply run the following command:
 python train_model.py
 ```
 
-This will load the MNIST dataset, preprocess the data, build the CNN model, and start training. The model will be saved as model.h5 upon completion.
+This will load the MNIST dataset, preprocess the data, build the CNN model, and start training. The model will be saved as model `.keras` upon completion.
 
 ## Model Architecture
 - Input Layer: 28x28 pixel grayscale images from the MNIST dataset.

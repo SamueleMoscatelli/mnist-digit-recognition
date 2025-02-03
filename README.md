@@ -9,7 +9,6 @@ This project implements a **handwritten digit recognition** model using the **MN
 - [Training the Model](#training-the-model)
 - [Model Evaluation](#model-evaluation)
 - [Usage](#usage)
-- [License](#license)
 
 ## Project Description
 

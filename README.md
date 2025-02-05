@@ -70,11 +70,11 @@ To make predictions on new images, use the following script:
 python predict_digit.py --image_path path_to_image
 ```
 
-The script automatically resizes images to 28x28 while keeping the aspect ratio.
-It converts to grayscale if needed.
-The image does NOT need to be preprocessed manually!
-✅ Supports any input image dimensions
-✅ Handles color images by converting to grayscale
+The script automatically resizes images to 28x28 while keeping the aspect ratio.<br/>
+It converts to grayscale if needed.<br/>
+The image does NOT need to be preprocessed manually!<br/>
+✅ Supports any input image dimensions<br/>
+✅ Handles color images by converting to grayscale<br/>
 
 Example
 If you have a digit image named "my_digit.png", run:

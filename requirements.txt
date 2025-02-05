@@ -1,3 +1,5 @@
-tensorflow>=2.0
-numpy>=1.18.5
-matplotlib>=3.2.2
+tensorflow
+numpy
+matplotlib
+argparse
+opencv-python
